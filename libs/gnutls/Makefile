@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2005-2015 OpenWrt.org
+# Copyright (C) 2005-2016 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -8,13 +8,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=gnutls
-PKG_VERSION:=3.4.8
+PKG_VERSION:=3.4.15
 PKG_RELEASE:=1
 PKG_USE_MIPS16:=0
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_URL:=ftp://ftp.gnutls.org/gcrypt/gnutls/v3.4
-PKG_MD5SUM:=a26e6dd8d5ad92016e3f068795b89624
+PKG_MD5SUM:=4ea5b239bd8bf1b734dda02997b36459
 #PKG_FIXUP:=autoreconf gettext-version
 PKG_MAINTAINER:=Nikos Mavrogiannopoulos <nmav@gnutls.org>
 PKG_LICENSE:=LGPLv2.1+
